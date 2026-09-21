@@ -46,7 +46,6 @@ import gregtech.api.recipe.RecipeMap;
 import gregtech.api.recipe.RecipeMapBackend;
 import gregtech.api.recipe.RecipeMaps;
 import gregtech.api.util.GTRecipe;
-import gtPlusPlus.api.recipe.GTPPRecipeMaps;
 import tectech.recipe.TecTechRecipeMaps;
 
 public class RecipeExporter {
@@ -305,7 +304,6 @@ public class RecipeExporter {
         List<RecipeMap<RecipeMapBackend>> maps = new ArrayList<>();
         List<Class<?>> recipeMapClasses = Arrays.asList(
             RecipeMaps.class,
-            GTPPRecipeMaps.class,
             BartWorksRecipeMaps.class,
             GoodGeneratorRecipeMaps.class,
             TecTechRecipeMaps.class);
